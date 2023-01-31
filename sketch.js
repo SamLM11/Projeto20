@@ -14,7 +14,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	//fill('rgba(100%,0%,100%,0.5)');
+	fill('rgba(100%,0%,100%,0.5)');
 	
 	//Crie os Corpos Aqui.
 	circulo = Bodies.circle(100, 10, 35, { restitution: 0.50, frictionAir:0.05 });
